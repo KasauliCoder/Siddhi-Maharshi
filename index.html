@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhi Maharshi - Event Management Projects</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+        body { background-color: #f0fdfa; color: #134e4a; min-height: 100vh; display: flex; flex-direction: column; }
+        header { background: #0d9488; color: #ffffff; padding: 25px 20px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .badge { display: inline-block; background: rgba(255,255,255,0.2); padding: 6px 16px; border-radius: 20px; font-size: 14px; font-weight: 600; margin-top: 10px; }
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; flex: 1; }
+        .intro { text-align: center; margin-bottom: 40px; }
+        .intro h2 { font-size: 28px; margin-bottom: 12px; color: #0d9488; }
+        .intro p { font-size: 16px; opacity: 0.85; max-width: 650px; margin: 0 auto; line-height: 1.6; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
+        .card { background: #ffffff; border-radius: 14px; padding: 30px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); border: 2px solid rgba(120,120,120,0.15); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s, box-shadow 0.2s; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 12px 30px rgba(0,0,0,0.15); }
+        .tag { display: inline-block; font-size: 12px; font-weight: bold; text-transform: uppercase; padding: 4px 10px; border-radius: 6px; background: #f43f5e; color: #fff; margin-bottom: 15px; width: fit-content; }
+        .card h3 { font-size: 22px; margin-bottom: 12px; color: #0d9488; }
+        .card p { font-size: 15px; line-height: 1.5; margin-bottom: 25px; opacity: 0.85; flex-grow: 1; }
+        .btn { display: inline-block; text-align: center; background: #0d9488; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: 600; font-size: 15px; transition: opacity 0.2s; }
+        .btn:hover { opacity: 0.9; }
+        .meta-box { margin-top: 40px; background: #ffffff; border-radius: 12px; padding: 20px; border-left: 5px solid #f43f5e; }
+        .meta-box p { font-size: 14px; line-height: 1.6; }
+        footer { background: rgba(0,0,0,0.05); text-align: center; padding: 20px; font-size: 14px; opacity: 0.8; margin-top: auto; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 28px; font-weight: 800;">Siddhi Maharshi's Event Management Workspace</h1>
+        <div class="badge">Student: Siddhi Maharshi | Roll No: No Roll No Assigned | Group 10: Private Parties & Birthdays</div>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <h2>Celebrations Co. - Birthday & Milestone Planners</h2>
+            <p>Welcome to the web repository of <b>Siddhi Maharshi</b>. Below are the two interactive Event Management web applications developed using modern HTML5 and responsive CSS.</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <div>
+                    <span class="tag">Project 1</span>
+                    <h3>Celebrations Co. Party Planners</h3>
+                    <p>Making Birthdays, Anniversaries & Milestones Truly Magical. Complete event landing page with hero banner, service highlights, packages, and registration form.</p>
+                </div>
+                <a href="project1/index.html" class="btn">Launch Project 1 &rarr;</a>
+            </div>
+
+            <div class="card">
+                <div>
+                    <span class="tag">Project 2</span>
+                    <h3>Party Package Estimator & Booking</h3>
+                    <p>Customize Your Dream Celebration with Add-ons & Themes. Full event schedule, pass pricing tiers, interactive booking form, and event venue guide.</p>
+                </div>
+                <a href="project2/index.html" class="btn">Launch Project 2 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="meta-box">
+            <p><strong>Repository Overview:</strong> This project is part of the college curriculum for Event Management Website Development. It contains 2 separate multi-section web portals built with clean semantic HTML and inline CSS styling.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Siddhi Maharshi (No Roll No Assigned). Built for College Web Project.
+    </footer>
+</body>
+</html>
